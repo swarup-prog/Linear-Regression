@@ -1,0 +1,45 @@
+Linear Regression:
+
+Regression is a form of predictive modelling technique which investigates the relationship between  a dependent and independent variable.
+It involves graphing  a line over a set of datapoints that most closely fits the overall shape of data.
+
+Uses of Linear Regression:
+- Evaluating trends and sales estimate.
+-  Analyzing impact of price changes.
+- Assessment of Risk in financial services and insurance domain.
+
+Understanding Linear  Regression Algorithm:
+
+y = mx + c
+Here, 
+y = Dependent variable  / y-coordinate
+x = Independent variable / x-coordinate
+m = Slope of line
+c = y-intercept
+
+The line formed by y = mx + c in graph is know as Line of Linear Regression. It shows the relation between independent and dependent variables. 
+
+If  independent and dependent variables are increasing then it forms +ve regression line as the slope is also +ve.
+If independent variable is increasing and dependent variable is decreasing then it forms,  -ve regression line as slope is also -ve.
+
+The distance between actual value and the estimated value(value that lies on the line of regression) is known as error.
+
+Our main goal is to reduce the error i.e. to reduce the distance between estimated and actual value.
+
+The line of regression  which has the least error  or the least difference in estimated value and actual value is known as best fit line.
+
+Mathematical Formula:
+To find slope:  m   = (submission of [(x - mean of x) * (y - mean of y)]) / (submission of (x - mean of x)^2)
+To find y-intercept: c = mean value of y - (slope * mean value of x)
+
+Now we can put the values of x, m and c in y = mx + c and predict the value of y. 
+
+After that we need to reduce the error  between  actual and predictive value by checking goodness of fit from R-square  method.
+
+R-Square Value: It is a statistical measure of how close the data are to the fitted regression line.
+In general, High R-square value  = Good model
+However in some cases, we can have low R-square value for good model or high R-squared value for model that is not fit at all.
+
+In some fields, it is entirely expected that R-squared  value  will be low  such as in the field that attempts to predict human behaviour typically has R-squared value lower than 50%.
+
+The formula for R-squared = 1 - (sum of squares of resudual / total sum of squares)
